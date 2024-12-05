@@ -10,7 +10,7 @@
 * Brief Description of what this module does. Demonstrating all that we've learned this year, solve one (1) hard leetcode problem per person with class knowledge and Github
 * Citations:https://leetcode.com/problems/parsing-a-boolean-expression/description/
             https://github.com/cole-crooks/crookscl_FinalProject          
-* Anything else that's relevant: My collaborators on this project are Leah Radcliffe (radclilr@mail.uc.edu), Peter Phan (phanpv@mail.uc.edu), and Peyton Brock (brockps@mail.uc.edu)
+* Anything else that's relevant: My collaborators on this project are Jack Driehaus (driehajl@mail.uc.edu), Derick Bellofatto (bellofdk@mail.uc.edu), and LAST GUY (HIS EMAIL)
 */
 
 using System;
@@ -20,7 +20,7 @@ using System.Web;
 
 namespace crookscl_FinalProject
 {
-    public class Problem_1106_Solution
+    public class Problem1106Solution
     {
         /// <summary>
         /// Solves Proplem 1106 on leetcode
