@@ -29,10 +29,11 @@
             <asp:DropDownList ID="ProblemSelect" runat="server">
                 <asp:ListItem Text="Problem 1106" Value="1"></asp:ListItem>
                 <asp:ListItem Text="Problem (2)" Value="2"></asp:ListItem>
-                <asp:ListItem Text="Problem (3)" Value="3"></asp:ListItem>
+                <asp:ListItem Text="Problem 1739" Value="3"></asp:ListItem>
                 <asp:ListItem Text="Problem (4)" Value="4"></asp:ListItem>
             </asp:DropDownList>
             <asp:Button ID="cmdProblemSolve" runat="server" Text="Solve" OnClick="cmdProblemSolve_Click" />
+
             <div>
                 <asp:Label ID="lblSelectedProblemDetails" runat="server" Text=""></asp:Label>
             </div>
