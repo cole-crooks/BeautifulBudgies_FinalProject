@@ -48,7 +48,25 @@ namespace crookscl_FinalProject
                     // ... call teh method for problem 2
                     break;
                 case "3":
-                    // ... call the method for Problem 3
+                    // Daquan
+                    if (selectedValue == "3") // Check if "Problem 3" is selected
+                    {
+                        lblSelectedProblemDetails.Text = "<br></br> Minimum Boxes to Build a Pyramid.";
+
+                        // Create an instance of Class1
+                        Class1 problem3 = new Class1();
+
+                        // Define inputs
+                        int[] inputs = { 3, 4, 10 };
+
+                        // Loop through inputs and calculate results
+                        lblSelectedProblemDetails.Text += "<br></br>You have a cubic storeroom where the width, length, and height of the room are all equal to n units. You are asked to place n boxes in this room where each box is a cube of unit side length. There are however some rules to placing the boxes:\r\n\r\nYou can place the boxes anywhere on the floor.\r\nIf box x is placed on top of the box y, then each side of the four vertical sides of the box y must either be adjacent to another box or to a wall.The problem is to calculate the minimum number of boxes required to build a pyramid for the following values of N:";
+                        foreach (int input in inputs)
+                        {
+                            int boxResult = problem3.MinimumBoxes(input);
+                            lblSelectedProblemDetails.Text += $"<br></br>For N = {input}, the minimum number of boxes required is: {boxResult}";
+                        }
+                    }
                     break;
                 case "4":
                     // ... call the method for Problem 4
@@ -56,6 +74,7 @@ namespace crookscl_FinalProject
                 default:
                     break;
             }
+
         }
     }
 }
