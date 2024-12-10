@@ -19,14 +19,14 @@ using System.Linq;
 using System.Web;
 
 namespace crookscl_FinalProject
-{   
+{
+    using System;
+    using System.Text;
+
     public class NumberToWordsConverter
-    {
-        /// <summary>
-        /// Converts words in numeric digits to written words
-        /// </summary>
+    {   
         private static readonly string[] BelowTwenty = { "Zero", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve", "Thirteen", "Fourteen", "Fifteen", "Sixteen", "Seventeen", "Eighteen", "Nineteen" };
-        private static readonly string[] Tens = { "", "", "Twenty", "Th irty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
+        private static readonly string[] Tens = { "", "", "Twenty", "Thirty", "Forty", "Fifty", "Sixty", "Seventy", "Eighty", "Ninety" };
         private static readonly string[] Thousands = { "", "Thousand", "Million", "Billion" };
 
         public string NumberToWords(int num)
